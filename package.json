@@ -1,0 +1,30 @@
+{
+	"name": "chess-minimax-ai",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"setup": "npm install && cd client && npm install && cd ..",
+		"build-run": "cd client && npm run build && cd .. && node server.js",
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MCola214/Chess-MiniMax-AI.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MCola214/Chess-MiniMax-AI/issues"
+	},
+	"homepage": "https://github.com/MCola214/Chess-MiniMax-AI#readme",
+	"dependencies": {
+		"assert": "^2.0.0",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"mongodb": "^3.6.6",
+		"mongoose": "^5.12.5"
+	}
+}
